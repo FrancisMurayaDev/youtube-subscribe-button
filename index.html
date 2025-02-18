@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube-Subscribe-Button</title>
+  </head>
+  <body>
+
+    <h1>YouTube Subscribe Button </h1>
+
+    <button class="js-subscribe-button subsribe-button"
+    onclick="
+    const buttonElement = document.querySelector('.js-subscribe-button');
+
+    if (buttonElement.innerHTML === 'Subscribe') {
+      buttonElement.innerHTML = 'Subscribed'
+    } else {
+      buttonElement.innerHTML = 'Subscribe';
+    }
+    "
+    >Subscribe</button>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
