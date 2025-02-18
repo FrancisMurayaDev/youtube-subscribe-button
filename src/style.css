@@ -8,3 +8,8 @@
   cursor: pointer;
   margin-top: 10px;
 }
+
+.is-subscribed {
+  background-color: rgb(183, 178, 178);
+  color: black;
+}
